@@ -1,0 +1,13 @@
+C:\Users\jessica\AppData\Local\Microsoft\WindowsApps\python.exe '.\crossword1.py' 7x7 6 V0x0come v0x1here h0x2ERS
+.\crossword1.py 7x7 6 V0x0come v0x1here h0x2ERS
+.\crossword1again.py 7x7 6 V0x0come v0x1here h0x2ERS
+.\crossword1again.py 7x6 0 V0x0Leather V0x5Uploads
+.\crossword1again.py 6x6 0 V0x0Expiry V0x5Backed
+.\crossword1again.py 9x13 18 V0x1Cme v5x10hel
+.\crossword1again.py 14x15 104 h3x2 h2x3 H4x4 H7x4 v5x10 h4x7##
+.\crossword2.py scrabble.txt 6x6 0 V0x0Expiry V0x5Backed
+
+
+'.\crossword1again.py' '7x7' '6' 'V0x0come' 'v0x1here' 'h0x2ERS'
+.\crossword2.py ['dct20k.txt', '4x4', '0']
+C:\Users\jessica\AppData\Local\Microsoft\WindowsApps\python.exe '.\crossword2.py' ['dct20k.txt', '4x4', '0']

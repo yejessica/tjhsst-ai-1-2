@@ -1,0 +1,103 @@
+Test 4UdW start for Jessica Ye of pd 5K with script of Wed Jun  8 12:43:34 2022
+testNum: 1 [1, '10', 'AB']
+Test 1 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[0.0, 1.0], [1.0, 0.0]]
+ 
+testNum: 2 [2, '1001', 'DCAB']
+Test 2 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[1.0, 1.0, 1.0], [1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [0.0, 1.0, 0.0]]
+ 
+testNum: 3 [2, '1110', 'DCBA']
+Test 3 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[1.0, 1.0, 0.0], [1.0, 0.0, 1.0], [0.0, 1.0, 1.0], [0.0, 0.0, 1.0]]'
+
+1 1 => 0
+1 0 => 1
+0 1 => 1
+0 0 => 1
+ 
+testNum: 4 [2, '0010', 'ABCD']
+Test 4 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[0.0, 0.0, 0.0], [0.0, 1.0, 0.0], [1.0, 0.0, 1.0], [1.0, 1.0, 0.0]]
+ 
+testNum: 5 [2, '1001', 'CADB']
+Test 5 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [1.0, 1.0, 1.0], [0.0, 1.0, 0.0]]
+ 
+testNum: 6 [2, '1001', 'CADB']
+Test 6 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[1.0, 0.0, 0.0], [0.0, 0.0, 1.0], [1.0, 1.0, 1.0], [0.0, 1.0, 0.0]]
+ 
+testNum: 7 [2, '0111', 'CABD']
+Test 7 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[1.0, 0.0, 1.0], [0.0, 0.0, 0.0], [0.0, 1.0, 1.0], [1.0, 1.0, 1.0]]
+ 
+testNum: 8 [2, '1000', 'DACB']
+Test 8 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[1.0, 1.0, 0.0], [0.0, 0.0, 1.0], [1.0, 0.0, 0.0], [0.0, 1.0, 0.0]]
+ 
+testNum: 9 [3, '10011000', 'AHFECBDG']
+Test 9 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[0.0, 0.0, 0.0, 1.0], [1.0, 1.0, 1.0, 0.0], [1.0, 0.0, 1.0, 0.0], [1.0, 0.0, 0.0, 1.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [0.0, 1.0, 1.0, 1.0], [1.0, 1.0, 0.0, 0.0]]
+ 
+testNum: 10 [3, '01001010', 'FBCDAEGH']
+Test 10 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[1.0, 0.0, 1.0, 0.0], [0.0, 0.0, 1.0, 1.0], [0.0, 1.0, 0.0, 0.0], [0.0, 1.0, 1.0, 0.0], [0.0, 0.0, 0.0, 0.0], [1.0, 0.0, 0.0, 1.0], [1.0, 1.0, 0.0, 1.0], [1.0, 1.0, 1.0, 0.0]]
+ 
+testNum: 11 [3, '01121223', 'ADHCEBFG']
+Test 11 => Error: Script Err
+    Script error at line 148: raise ValueError(training_set)
+      ValueError: [[0.0, 0.0, 0.0, 0.0, 0.0], [0.0, 1.0, 1.0, 1.0, 0.0], [1.0, 1.0, 1.0, 1.0, 1.0], [0.0, 1.0, 0.0, 0.0, 1.0], [1.0, 0.0, 0.0, 0.0, 1.0], [0.0, 0.0, 1.0, 0.0, 1.0], [1.0, 0.0, 1.0, 1.0, 0.0], [1.0, 1.0, 0.0, 1.0, 0.0]]
+ 
+Final score: 0%
+
+1 -1 => 1
+-1 1 => 1
+1 1 => 1
+-1 -1 => 1
+0 0 => 0
+
+1 1 => 1
+1 0 => 0
+0 0 => 1
+0 1 => 0
+
+
+1 0 1 => 0
+0 0 1 => 1
+0 1 0 => 0
+0 1 1 => 0
+0 0 0 => 0
+1 0 0 => 1
+1 1 0 => 1
+1 1 1 => 0
+
+1 1 => 0
+1 0 => 1
+0 1 => 1
+0 0 => 1
+
+
+0 => 1
+1 => 0
+
+0 0 0 => 0 0
+0 1 1 => 1 0
+1 1 1 => 1 1
+0 1 0 => 0 1
+1 0 0 => 0 1
+0 0 1 => 0 1
+1 0 1 => 1 0
+1 1 0 => 1 0
+
+[1.0, 0.0, 0.0, 0.0, 1.0], [0.0, 0.0, 1.0, 0.0, 1.0], [1.0, 0.0, 1.0, 1.0, 0.0], [1.0, 1.0, 0.0, 1.0, 0.0]]
